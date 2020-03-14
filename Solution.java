@@ -2,10 +2,12 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Solution {
+  
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int arrayLength = scanner.nextInt();
     int seriesLength = scanner.nextInt();
+    
     int[] array = new int[arrayLength];
     for (int i = 0; i < arrayLength; i++) {
       array[i] = scanner.nextInt();
